@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism Checker</title>
+    <!-- External Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="essasyediting.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Font Family -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- Mobile Header -->
+<section class="mobile-header">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img class="mobile-logo" src="images/logo-paperhelpdesk.svg" alt="*" />
+        </a>
+
+        <div class="d-flex">
+          <a class="mobile-bar" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+            aria-controls="offcanvasExample">
+            <i class="fas fa-bars"></i>
+          </a>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <img class="img-fluid" src="images/logo-paperhelpdesk.svg" alt="*" width="250px" />
+
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <ul class="mobile-ul">
+                  <li class="mobile-li">
+                    <a href="/essayediting.html">Essay Editing</a>
+                  </li>
+                  <li class="mobile-li">
+                    <a href="/assignmentediting.html">Assignment Editing</a>
+                  </li>
+                  <li class="mobile-li">
+                    <a href="/dissertationediting.html">Dissertation Editing</a>
+                  </li>
+                  <li class="mobile-li">
+                    <a href="/thesisediting.html">Thesis Editing</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+
+  <!-- Top Header  -->
+  <header class="header-main">
+    <div class="top-bar d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="emailsec">
+              <a href="mailto: support@paperhelpdesk.co"><i class="fas fa-envelope"></i> support@paperhelpdesk.co</a>
+            </div>
+
+
+          </div>
+          <div class="col-lg-7">
+            <ul class="top-info-list">
+              <li><a href="tel:+441616603238 "><span><img class="flag" src="./images/uk-flag.png"></span>
+                  +44-161-660-3238 </a></li>
+
+              <li><a href="tel:+12132212855"><span><img class="flag" src="./images/usa-flag.png"></span> +1-213-221-2855
+                </a></li>
+              <li><a href=""><i class="fas fa-comments"></i> Live Chat</a> </li>
+              <li><a href="javascript:;" class="btncontact btn-main gotocontact">Let's Get Started</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-area-full">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 logo-area">
+            <div class="logo">
+              <a href="/">
+                <img class="img-fluid" src="./images/logo-paperhelpdesk.svg" alt="*">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-10 d-flex ">
+            <div class="main-menu align-self-center d-none d-lg-block">
+              <ul class="forpgactive">
+                <li class=""><a href="/essayediting.html">Essay Editing</a>
+                </li>
+                <li class=""><a href="/assignmentediting.html">Assignment Editing</a>
+
+                </li>
+                <li class=""><a href="/dissertationediting.html">Dissertation Editing</a></li>
+                <li class=""><a href="/thesisediting.html">Thesis Editing</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+
+  <!-- Hero Section -->
+
+  <div class="slider-wrapper">
+    <section class="">
+      <div class="item">
+        <div class="home-banner d-flex" style="background-image:url(./images/banner.jpg)">
+          <div class="container align-self-center">
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="home-banner-content">
+                  <h1>WELCOME TO <strong>PAPER HELP DESK</strong> <span>QUALITY EDITING &amp; PROOFREADING SERVICE FOR
+                      YOUR PAPERS!</span></h1>
+                  <a class="btn-theme-yellow"><i class="fa fa-comments-o"></i> Chat With Our Expert</a>
+                  <a class="btncontact btn-theme-blue gotocontact"><i class="fa fa-tty"></i> Let's Get Started</a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 offset-lg-2 col-md-4 offset-md-2">
+                <div class="banner-form">
+                  <div class="headerr">
+                    <img src="./images/50-off2.png" alt="">
+                  </div>
+                  <h3>SIGN UP</h3>
+                  <section class="banform">
+                    <div class="container">
+                      <div class="row">
+                        <div class="">
+                          <div class="ban-form">
+                            <form class="cmxform" id="bannerform">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <div class="fldset">
+                                    <input id="username" name="Name" minlength="2" type="text"
+                                      placeholder="Enter your name" required="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-12">
+                                  <div class="fldset">
+                                    <input id="cemail" type="email" name="Email" placeholder="Enter email here"
+                                      required="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-12">
+                                  <div class="fldset">
+
+                                    <input id="phone-coun" name="Number" type="number" placeholder="Phone Number"
+                                      required="" autocomplete="off">
+                                  </div>
+
+                                </div>
+                              </div>
+                              <div class="col-lg-12">
+                                <div class="fldset">
+                                  <input name="submit" type="submit" placeholder="Connect With Us" required="">
+
+
+                                </div>
+                              </div>
+                          </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+    </section>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  </section>
+  </div>
+
+
+  <!-- Professional Section -->
+  <section class="professional-sec" >
+    <div class="container" >
+       <div class="main-box" >
+      <div class="row" >
+       
+        <div class="col-md-3" >
+             <div class="Faculty" >
+               <img src="./images/essay-1.png" >
+             </div>
+                <div class="Faculty-content" >
+                  <h3 >Professional Faculty</h3>
+                  <p >Editors with native proficiency, qualification &amp; experience.</p>
+                </div>
+        </div>
+  
+  
+  
+  
+        <div class="col-md-3" >
+             <div class="Faculty" >
+               <img src="./images/assignment-2.png" >
+             </div>
+                <div class="Faculty-content" >
+                  <h3 >Affordable Fee</h3>
+                  <p >Economical prices for editing and proofreading services.</p>
+                </div>
+        </div>
+  
+  
+  
+  
+  
+        <div class="col-md-3" >
+             <div class="Faculty" >
+               <img src="./images/dissertation-3.png" >
+             </div>
+                <div class="Faculty-content" >
+                  <h3 >Prompt Delivery</h3>
+                  <p >We back up on time delivery through our refund policy.</p>
+                </div>
+        </div>
+  
+  
+  
+  
+        <div class="col-md-3" >
+             <div class="Faculty" >
+               <img src="./images/thesis-4.png" >
+             </div>
+                <div class="Faculty-content" >
+                  <h3 >Free Revisions</h3>
+                  <p >Free of charge revisions and final touches.</p>
+                </div>
+        </div>
+  </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Us -->
+  <section class="contactus">
+    <div class="container">
+    
+      <form method="POST" action="webpages/bottomFormController.php" enctype="multipart/form-data">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="app-input-group">
+                  <span class=""><input type="text" placeholder="Name" name="Name" value="" size="40" class="input"
+                      required=""></span>
+
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="app-input-group">
+                  <span><input type="text" placeholder="Email" name="Email" value="" size="40" class="input"
+                      required=""></span>
+
+                </div>
+              </div>
+
+
+
+              <div class="col-md-6">
+                <div class="app-input-group">
+                  <input type="text" placeholder="Phone Number" name="Number" required="" autocomplete="off">
+
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="app-input-group selectCust">
+                  <select required="" name="Services">
+                    <option value="">Select Service</option>
+                    <option value="Essay Editing">Essay Editing</option>
+                    <option value="Assignment Editing">Assignment Editing</option>
+                    <option value="Dissertation Editing">Dissertation Editing</option>
+                    <option value="Thesis Editing">Thesis Editing</option>
+                  </select>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="app-input-group full projct">
+
+                  <textarea name="Message" placeholder="Project details" cols="40" rows="1" class="textarea"
+                    required=""></textarea>
+
+
+                </div>
+              </div>
+
+
+
+            </div>
+            <div class="col-lg-12 text-right">
+              <div class="attach">
+                <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit submit">
+                <input type="hidden" name="ctry" value="Pakistan Pakistan Pakistan Pakistan ">
+                <input type="hidden" name="pc" value="+92+92+92+92">
+                <input type="hidden" name="hiddencapcha" value="">
+                <input type="hidden" id="location" name="locationURL" value="http://paperhelpdesk.co/">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </form>
+
+    </div>
+
+
+  </section>
+
+     <!-- Editing h1 Section  -->
+     <section class="main-paper-hlp-dsk-sec" >
+      <div class="container" >
+          <div class="row" >
+              <div class="col-lg-12" >
+                  <h2 >Free Assignment Checker: Keep Plagiarism At Arm’s Length</h2>
+                  <h6 >The Most Reliable Help for Your Essays!</h6>
+                  <p >If you are not confident doing your essay and keep having second
+                      thoughts on writing quality essay drafts. If you keep worrying over syntax, grammar, language,
+                      structure and referencing of your essay papers.</p>
+                  <p >You definitely need a professional essay service to help edit your
+                      essays. Paper Help Desk shines in times of your need to offer top notch essay help, editing and
+                      proofreading services to secure you best grades throughout your courses and modules.</p>
+                  <a class="btncontact btn-theme-blue" ><i class="fa fa-user-o"
+                          ></i> Sign Up</a>
+                  <a target="_self" class="btn-theme-yellow" ><i class="fa fa-comments-o"
+                          ></i> Chat With
+                      Our Expert</a>
+                  <a class="btncontact btn-theme-blue gotocontact" ><i class="fa fa-tty"
+                          ></i> Let's Get Started</a>
+              </div>
+              <br/>
+              <div class="checking" >
+                <h4 >AVOIDING PLAGIARISM – THE ULTIMATE NECESSITY FOR YOUR ASSIGNMENT PAPERS</h4>
+                <p >We all understand that most assignments require some sort of secondary information and this factor can cause concerns related to plagiarism. But there are several methods you can use to avoid plagiarism altogether.</p>
+    
+    
+                <h4 >PARAPHRASING – PUT THE INFORMATION INTO YOUR OWN WORDS</h4>
+                <p >It is not difficult for you to find the relevant information on the internet. Some might even say that this is the easiest part of the assignment. The trick, however, is to understand all the information and rephrase it into your words. Always remember; copy pasting data without properly quoting the author is a big no if you wish to avoid the charges of plagiarism.</p>
+    
+    
+    
+    
+                <h4 >QUOTING – USE IT WISELY</h4>
+                <p >As a student, you probably love nothing more than quoting other authors and who could blame you for this? It is perhaps the most convenient way of filling up your paper and getting it over and done with. But as always, there is a catch. The excessive use of quotations can have detrimental impact on the efficacy for your paper and hence, you should only use quotes when there is no room for paraphrasing.</p>
+    
+    
+    
+                <h4 >CITATIONS: FOLLOW YOUR INSTITUTION’S GUIDELINES</h4>
+                <p >A surefire way to evade plagiarism is through proper citations. Institutions provides you formatting guidelines that specifies how you should cite the research of other authors. In most cases, you are required to mention the name of authors and date on which there research was published.  </p>
+    
+    
+    
+    
+                <h4 >THE UTILITY OF AN EFFECTIVE ASSIGNMENT PLAGIARISM CHECKER</h4>
+                <p >When it comes checking your final assignment for plagiarism, you can never be too careful. Students often follow every rule in the book to escape plagiarism but sometimes even that is not enough. At the end of the day, the onus is on you to make sure that your assignment is plagiarism free and the best way of doing that is through a potent assignment checker.</p>
+    
+    
+                 <h4 >HOW AN ASSIGNMENT CHECKER FUNCTIONS</h4>
+                <p >You may have heard of turnitin assignment checker as it one of the most popular tools used by students to examine plagiarism in their assignment. Turntin, along with other assignment checking software operates in an extremely simple manner. Initially, you are required to attach your assignment or paste its text into the program. From there, you submit a request for the program to analyze your assignment and finally, you are provided a detailed report which highlights the copied content and its sources. You are also told what percentage of the document is original.</p>
+    
+    
+                 <h4 >WITH OUR ASSISTANCE, PLAGIARISM IS AVOIDABLE</h4>
+                <p >By utilizing the best assignment similarity checkers available on the market and also some customized tools of our own, we ensure that plagiarism remains a nonissue for the students who acquire our services. With us, you can get an extensive assignment in the shortest periods of time without ever worrying about the possibility of any plagiarism. And this is not it. We will check your assignment for plagiarism for free. WOWriters guarantees you high quality, originality and on-time delivery. </p>
+    
+    
+            </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- Quality Editing Instant Help Or CTA-->
+    <section class="quality-editing" style="user-select: auto;">
+      <div class="container" style="user-select: auto;">
+        <div class="row" style="user-select: auto;">
+          <div class="col-md-8" style="user-select: auto;">
+            <div class="helpnow" style="user-select: auto;">
+                <h3 style="user-select: auto;">Quality Editing &amp; Proofreading Services for your Dissertations. Get Instant Help Now!</h3>
+                <p style="user-select: auto;">Secure discount offers by talking to our professionals. We assure you<br style="user-select: auto;"> quality editing &amp; proofreading services with professional support to have you as our returning client! </p>
+            </div>
+          </div>
+    
+          <div class="col-md-4" style="user-select: auto;">
+            <div class="agent-pic" style="user-select: auto;">
+              <img src="./images/agent.png" style="user-select: auto;">
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="footer-main">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <a href="/" class="logo-main"> <img width="180"
+                src="./images/logo-paperhelpdesk.svg" alt="logo"></a>
+            <p class="clum-one-para">PaperHelpDesk Services website with all its applications and systems is an online
+              service platform solely owned and operated by PaperHelpDesk Services. We provide editing services to
+              clients as required.</p>
+
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="xsmtpx-30">Quick Contact Us</h3>
+            <form>
+              <ul class="linkinglist">
+                <li><input type="text" name="Name" placeholder="Name" required=""></li>
+                <li><input type="email" name="Email" placeholder="Email" required=""></li>
+                <li><input type="tel" name="Phone" placeholder="Phone Number" required=""></li>
+                <li><button type="submit">submit now</button></li>
+                <input type="hidden" id="flocation" name="locationURL" value="http://paperhelpdesk.co/">
+                <input type="hidden" name="hiddencapcha" value="">
+              </ul>
+            </form>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="xshide">Site Polices</h3>
+            <ul class="linkinglist">
+              <li><a href="/privacypolicy.html">Privacy Policy</a></li>
+              <li><a href="/revisionpolicy.html">Revision Policy</a></li>
+              <li><a href="/termsandconditions.html">Term And Condition</a></li>
+              <li><a href="/moneybackguarantee.html">Money Back Guarantee</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="xsmtpx-30">STAY CONNECTED</h3>
+            <ul class="linkinglist">
+              <li>Call Us</li>
+              <li>+1-213-221-2855</li>
+              <li>+44-161-660-3238</li>
+              <li>Email</li>
+              <li>support@paperhelpdesk.co</li>
+              <li>Address</li>
+              <li>39899 Balentine Drive, Newark, New Jersey, 94560, USA</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <p class="copyright">Copyrights © PaperHelpDesk. All Rights Reserved. <span id="year">2021</span>. </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+ 
+    <!-- Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
